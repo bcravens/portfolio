@@ -8,9 +8,12 @@ class Welcome extends Component {
   // }
   render() {
     return (
-      <div>
-      <h1>Bradley Cravens</h1>
-      <h2>Web Developer</h2>
+      <div className="welcomeContent">
+        <div className="name">
+          <h1 className="bradley">BRADLEY</h1>
+          <h1 className="cravens">CRAVENS</h1>
+        </div>
+      <h2 className="title">WEB DEVELOPER</h2>
       </div>
     )
   }

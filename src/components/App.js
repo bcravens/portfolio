@@ -9,6 +9,7 @@ class App extends React.Component {
         <div className="content">
         {this.props.children}
         </div>
+        <div className="blueBackground"></div>
         <NavBar />
       </div>
     )

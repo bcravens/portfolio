@@ -9,29 +9,21 @@ class NavBar extends React.Component {
       <div className="navbar">
 
         <Link to="/">
-          <Button
-          label="Home"
-          />
+          <Button label="HOME" />
         </Link>
 
         <Link to="/about">
-          <Button
-          label="About"
-          />
+          <Button label="ABOUT" />
         </Link>
 
         <Link to="/works">
-          <Button
-          label="Works"
-          />
+          <Button label="WORKS" />
         </Link>
 
         <Link to="/contact">
-          <Button
-          label="Contact"
-          />
+          <Button label="CONTACT" />
         </Link>
-        
+
       </div>
     )
   }

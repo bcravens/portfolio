@@ -9,4 +9,33 @@ body {
 }
 .content {
   height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+}
+.bradley {
+  font-size: 5em;
+  margin-right: 3px;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cravens {
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.arrow {
+  height: 50px;
+  margin-bottom: 10px;
 }

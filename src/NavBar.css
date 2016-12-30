@@ -6,6 +6,7 @@
 .navbar > a {
   text-decoration: none;
   color: black;
+  color: white;
 }
 .button {
   display: flex;
@@ -15,5 +16,13 @@
   height: 40px;
   width: 200px;
   padding: 5px;
-  border: 1px solid black;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+.button:hover {
+  background: white;
+  color: rgb(50,60,102);
+  font-weight: bold;
 }

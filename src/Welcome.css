@@ -1,1 +1,19 @@
-
+body {
+  background: url('../public/images/background1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcomeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  margin-top: 0px;
+  letter-spacing: 10px;
+  font-size: 2em;
+}
