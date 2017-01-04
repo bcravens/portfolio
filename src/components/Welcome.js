@@ -12,6 +12,7 @@ class Welcome extends Component {
         <div className="name">
           <h1 className="bradley">BRADLEY</h1>
           <h1 className="cravens">CRAVENS</h1>
+          <div className="cat"></div>
         </div>
       <h2 className="title">WEB DEVELOPER</h2>
       </div>

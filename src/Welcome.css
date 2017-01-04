@@ -1,5 +1,5 @@
 body {
-  background: url('../public/images/background1.jpg');
+  background: rgb(231,233,232);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10,7 +10,7 @@ body {
   flex-direction: column;
 }
 .title {
-  color: white;
+  color: rgb(50,50,50);
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   margin-top: 0px;
